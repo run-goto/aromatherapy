@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background:
+    radial-gradient(circle at 18% 2%, rgba(201, 164, 106, 0.15), transparent 28rem),
+    linear-gradient(180deg, #fffdf8 0%, #f7f1e8 55%, #fffdf8 100%);
+  color: #2f332a;
+  font-family: "Noto Serif SC", "Songti SC", "Microsoft YaHei", ui-serif, Georgia, serif;
+}
+
+body,
+button,
+input,
+textarea {
+  letter-spacing: 0;
+}
+
+::selection {
+  background: rgba(102, 121, 95, 0.22);
+}
+
+.body-font {
+  font-family: "Inter", "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+}
+
+.container-pad {
+  @apply mx-auto w-full max-w-7xl px-5 sm:px-6 lg:px-8;
+}
+
+.section {
+  @apply py-14 sm:py-20;
+}
+
+.eyebrow {
+  @apply body-font text-sm font-medium text-sage;
+}
+
+.prose-calm {
+  @apply body-font text-[17px] leading-8 text-stone-700;
+}
+
+.focus-ring {
+  @apply focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-sage;
+}
