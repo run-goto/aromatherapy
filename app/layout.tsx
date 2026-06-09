@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     description: "一站式了解香薰、精油、香薰机、无火香薰和香薰蜡烛。",
     images: [
       {
-        url: "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?auto=format&fit=crop&w=1200&q=80",
+        url: "/images/hero-bedroom-aromatherapy.png",
         width: 1200,
         height: 630,
         alt: "床头柜上的香薰机、精油瓶与柔和灯光"

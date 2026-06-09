@@ -21,7 +21,7 @@ export function ArticlePage({ slug }: { slug: string }) {
     author: { "@type": "Organization", name: "香息指南" },
     publisher: { "@type": "Organization", name: "香息指南" },
     mainEntityOfPage: `${siteUrl}/${guide.slug}`,
-    image: guide.image
+    image: guide.image.startsWith("/") ? `${siteUrl}${guide.image}` : guide.image
   };
 
   return (

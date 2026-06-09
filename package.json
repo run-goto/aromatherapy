@@ -4,8 +4,12 @@
   "private": true,
   "scripts": {
     "dev": "next dev --webpack",
+    "dev:fast": "next dev --turbopack",
+    "dev:host": "next dev --turbopack --hostname 0.0.0.0",
     "build": "next build --webpack",
+    "build:fast": "next build --turbopack",
     "start": "next start",
+    "start:host": "next start --hostname 0.0.0.0",
     "lint": "next lint"
   },
   "dependencies": {

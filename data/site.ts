@@ -1,13 +1,12 @@
 export const siteUrl = "https://xiangxizhinan.com";
 
-export const heroImage =
-  "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?auto=format&fit=crop&w=1400&q=82";
+export const heroImage = "/images/hero-bedroom-aromatherapy.png";
 
 export const sceneImages = {
-  sleep: "https://images.unsplash.com/photo-1616594039964-ae9021a400a0?auto=format&fit=crop&w=900&q=78",
-  living: "https://images.unsplash.com/photo-1602872030490-4a484a7b3ba6?auto=format&fit=crop&w=900&q=78",
-  desk: "https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&w=900&q=78",
-  candle: "https://images.unsplash.com/photo-1603006905393-c279718fda7c?auto=format&fit=crop&w=900&q=78"
+  sleep: "/images/hero-bedroom-aromatherapy.png",
+  living: "/images/living-room-reed-diffuser.png",
+  desk: "/images/desk-aromatherapy-focus.png",
+  candle: "/images/evening-candle-ritual.png"
 };
 
 export const siteFaqs = [
