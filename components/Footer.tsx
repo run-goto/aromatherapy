@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { VisitCounter } from "@/components/VisitCounter";
 
 const groups = [
   {
@@ -57,6 +58,9 @@ export function Footer() {
         </div>
         <p className="body-font mt-10 border-t border-stone-300/70 pt-6 text-xs leading-6 text-stone-500">
           本站内容仅用于香薰、家居香氛和生活方式参考，不提供医疗诊断、治疗建议或处方建议。如有孕期、儿童、宠物、呼吸系统疾病或特殊健康情况，请咨询专业人士。
+        </p>
+        <p className="body-font mt-3 text-xs text-stone-500">
+          <VisitCounter />
         </p>
       </div>
     </footer>
