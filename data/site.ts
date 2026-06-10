@@ -1,6 +1,6 @@
-export const siteUrl = "https://miana.top";
+export const siteUrl = "https://aromatherapy.miana.top";
 export const pathUrl = "https://miana.top/aromatherapy";
-export const subdomainUrl = "https://xiangxi.miana.top";
+export const subdomainUrl = "https://aromatherapy.miana.top";
 
 export const heroImage = "/images/hero-bedroom-aromatherapy.webp";
 

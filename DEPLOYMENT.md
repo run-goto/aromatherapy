@@ -14,14 +14,14 @@
 
 ## 三级域名地址
 
-建议使用：
+当前使用：
 
-- `https://xiangxi.miana.top/`
+- `https://aromatherapy.miana.top/`
 
 代码无法直接创建 DNS 记录。你需要在域名 DNS 服务商或部署平台里添加：
 
 - 类型：`CNAME`
-- 主机记录：`xiangxi`
+- 主机记录：`aromatherapy`
 - 记录值：你的部署平台提供的域名，例如 Vercel/Netlify/服务器反代域名
 
-如果你的部署平台要求绑定域名，也需要在平台后台添加 `xiangxi.miana.top`。
+如果你的部署平台要求绑定域名，也需要在平台后台添加 `aromatherapy.miana.top`。
