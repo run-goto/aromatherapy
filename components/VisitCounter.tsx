@@ -7,6 +7,7 @@ export function VisitCounter() {
 
   useEffect(() => {
     let cancelled = false;
+    let timeoutId: number | undefined;
 
     async function loadCounter() {
       const hasCounted = sessionStorage.getItem("xiangxi_visit_counted") === "1";
@@ -25,14 +26,36 @@ export function VisitCounter() {
       }
     }
 
-    loadCounter().catch(() => {
-      if (!cancelled) {
-        setCount(null);
+    function scheduleCounter() {
+      const run = () => {
+        timeoutId = window.setTimeout(() => {
+          loadCounter().catch(() => {
+            if (!cancelled) {
+              setCount(null);
+            }
+          });
+        }, 1200);
+      };
+
+      if ("requestIdleCallback" in window) {
+        window.requestIdleCallback(run, { timeout: 3000 });
+      } else {
+        run();
       }
-    });
+    }
+
+    if (document.readyState === "complete") {
+      scheduleCounter();
+    } else {
+      window.addEventListener("load", scheduleCounter, { once: true });
+    }
 
     return () => {
       cancelled = true;
+      window.removeEventListener("load", scheduleCounter);
+      if (timeoutId) {
+        window.clearTimeout(timeoutId);
+      }
     };
   }, []);
 
