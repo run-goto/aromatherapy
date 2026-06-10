@@ -1,4 +1,6 @@
-export const siteUrl = "https://xiangxizhinan.com";
+export const siteUrl = "https://miana.top";
+export const pathUrl = "https://miana.top/aromatherapy";
+export const subdomainUrl = "https://xiangxi.miana.top";
 
 export const heroImage = "/images/hero-bedroom-aromatherapy.png";
 

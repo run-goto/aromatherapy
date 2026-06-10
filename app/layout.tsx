@@ -4,7 +4,7 @@ import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://xiangxizhinan.com"),
+  metadataBase: new URL("https://miana.top"),
   title: {
     default: "香息指南｜香薰怎么选，精油、香薰机与居家香氛指南",
     template: "%s｜香息指南"
