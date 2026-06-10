@@ -2,13 +2,13 @@ export const siteUrl = "https://miana.top";
 export const pathUrl = "https://miana.top/aromatherapy";
 export const subdomainUrl = "https://xiangxi.miana.top";
 
-export const heroImage = "/images/hero-bedroom-aromatherapy.png";
+export const heroImage = "/images/hero-bedroom-aromatherapy.webp";
 
 export const sceneImages = {
-  sleep: "/images/hero-bedroom-aromatherapy.png",
-  living: "/images/living-room-reed-diffuser.png",
-  desk: "/images/desk-aromatherapy-focus.png",
-  candle: "/images/evening-candle-ritual.png"
+  sleep: "/images/hero-bedroom-aromatherapy.webp",
+  living: "/images/living-room-reed-diffuser.webp",
+  desk: "/images/desk-aromatherapy-focus.webp",
+  candle: "/images/evening-candle-ritual.webp"
 };
 
 export const siteFaqs = [

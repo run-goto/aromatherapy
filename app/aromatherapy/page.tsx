@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     url: "/aromatherapy",
     images: [
       {
-        url: "/images/hero-bedroom-aromatherapy.png",
+        url: "/images/hero-bedroom-aromatherapy.webp",
         alt: "卧室床头柜上的香薰机、精油瓶与柔和灯光"
       }
     ]
