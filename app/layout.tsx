@@ -11,6 +11,9 @@ export const metadata: Metadata = {
   },
   description:
     "香息指南是面向中文用户的香薰知识指南，帮助你按助眠、放松、专注、居家氛围和送礼场景选择香薰、精油、香薰机、无火香薰与香薰蜡烛。",
+  verification: {
+    google: "UYLS5sIV8PUrrxJmvq3NKaC2FJWadjZK9cxHts5ATaw"
+  },
   openGraph: {
     type: "website",
     locale: "zh_CN",
